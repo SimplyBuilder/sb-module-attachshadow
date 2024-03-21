@@ -1,0 +1,17 @@
+*
+
+!.gitignore
+
+!src
+!src/**
+
+!package.json
+
+
+**/*~
+**/*.log
+**/.DS_Store
+**/Thumbs.db
+**/node_modules
+**/dist
+**/build
