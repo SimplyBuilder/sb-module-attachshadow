@@ -46,7 +46,8 @@ For a more complete security modality, see how it is done in ["SimplyBuilderCore
 
 ### Contribution Guidelines
 
-Interested in contributing? We welcome your contributions to enhance the backend capabilities of `@jamilservices/sb-module-attachshadow`. Please check our [Contribution Guidelines](https://github.com/SimplyBuilder/sb-module-attachshadow/tree/main/CONTRIBUTING.md) for more details.
+Interested in contributing? We welcome your contributions to enhance the backend capabilities of `@jamilservices/sb-module-attachshadow`.      
+Please check our [Contribution Guidelines](https://github.com/SimplyBuilder/sb-module-attachshadow/tree/main/CONTRIBUTING.md) for more details.
 
 ### License
 
