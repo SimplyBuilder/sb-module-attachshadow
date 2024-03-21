@@ -1,0 +1,65 @@
+{
+  "name": "@jamilservices/sb-module-attachshadow",
+  "description": "Simply Builder Module - copies and freeze attachShadow",
+  "version": "1.0.0",
+  "main": "lib/main.min.js",
+  "author": "Jamil Serviços <jamilservicos@gmail.com> (https://github.com/jamilservicos)",
+  "funding": [
+    {
+      "type": "github",
+      "url": "https://github.com/sponsors/jamilservicos"
+    },
+    {
+      "type": "patreon",
+      "url": "https://patreon.com/jamilservices"
+    }
+  ],
+  "files": [
+    "AUTHORS",
+    "lib"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "clean": "rm -rf lib && rm -rf build",
+    "build": "pnpm run clean && rollup -c",
+    "see-pack": "tar tvf $(npm pack)",
+    "test": "pnpm build && node --test test/main.js",
+    "prepublish": "pnpm test",
+    "publish:dist": "pnpm publish --no-git-checks --access public",
+    "publish:test": "pnpm publish --dry-run --no-git-checks",
+    "version:patch": "pnpx changelogen@latest --bump --patch",
+    "version:minor": "pnpx changelogen@latest --bump --minor",
+    "version:major": "pnpx changelogen@latest --bump --major"
+  },
+  "homepage": "https://simplybuilder.github.io",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimplyBuilder/sb-module-attachshadow.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SimplyBuilder/sb-module-attachshadow/issues"
+  },
+  "keywords": [
+    "jamilservicos",
+    "jamilservices",
+    "iife",
+    "script",
+    "javascript",
+    "simply-builder",
+    "simplybuilder",
+    "simply",
+    "builder",
+    "module",
+    "shadow",
+    "shadowroot",
+    "dom",
+    "HTMLElement",
+    "freeze"
+  ],
+  "devDependencies": {
+    "@rollup/plugin-replace": "latest",
+    "@rollup/plugin-terser": "latest",
+    "jsdom": "latest",
+    "rollup": "latest"
+  }
+}
