@@ -1,12 +1,25 @@
 *
 
+!.github
+
 !.gitignore
+!.npmignore
 
 !src
-!src/**
+!src/main.js
+!test
+!test/main.js
 
 !package.json
+!rollup.config.js
 
+!README.md
+!AUTHORS
+!LICENSE
+!MAINTAINERS.md
+!GOVERNANCE.md
+!CONTRIBUTING.md
+!CHANGELOG.md
 
 **/*~
 **/*.log
