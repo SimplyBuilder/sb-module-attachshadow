@@ -1,7 +1,7 @@
 {
   "name": "@jamilservices/sb-module-attachshadow",
   "description": "Simply Builder Module - copies and freeze attachShadow",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "lib/main.min.js",
   "author": "Jamil Serviços <jamilservicos@gmail.com> (https://github.com/jamilservicos)",
   "funding": [
